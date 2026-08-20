@@ -1,4 +1,4 @@
-# ==================================================
+﻿# ==================================================
 # AGBC - Git Ignore
 # ==================================================
 
@@ -14,6 +14,8 @@ App/.expo-shared/
 App/android/.gradle/
 App/android/build/
 App/android/app/build/
+App/android/app/.cxx/
+App/android/.cxx/
 App/android/local.properties
 
 # React Native iOS
@@ -32,21 +34,14 @@ App/yarn-error.log*
 # Django - Backend
 # ==================================================
 
-# Python cache
 backend/__pycache__/
 backend/**/__pycache__/
 backend/*.py[cod]
 backend/**/*.py[cod]
-
-# Virtual environments
 backend/venv/
 backend/.venv/
 backend/env/
-
-# Django
 backend/*.log
-
-# SQLite database
 backend/db.sqlite3
 backend/db.sqlite3-journal
 
@@ -57,7 +52,6 @@ backend/db.sqlite3-journal
 .env
 .env.*
 !.env.example
-
 App/.env
 backend/.env
 
